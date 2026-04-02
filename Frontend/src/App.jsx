@@ -1,10 +1,16 @@
 import React from 'react'
 import Mainroutes from './routes/Mainroutes'
 import "./shered/style/global.scss";
+import Navbar from './components/Navbar';
+import "./pages/style/App.scss"
 
 const App = () => {
   return (
-    <Mainroutes />
+    <div className='main-pages'>
+      <Navbar/>
+       <Mainroutes />
+    </div>
+   
   )
 }
 

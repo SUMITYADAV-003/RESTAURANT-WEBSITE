@@ -1,0 +1,35 @@
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+
+
+  .inp{
+    width: 20rem;
+    border-radius: 0.2rem;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+    background-color: rgb(192, 184, 184);
+  
+    
+  }
+
+  .clg{
+    background: linear-gradient(to bottom, pink, hotpink);
+    
+    
+  }
+  button{
+    cursor: pointer;
+     transition: all 0.3s ease;
+  }
+
+  button:active {
+  transform: scale(0.95); /* Shrinks to 95% on click */
+}
+  
+}
